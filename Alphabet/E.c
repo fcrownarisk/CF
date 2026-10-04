@@ -33,6 +33,7 @@ virtualbool (Maxwell){
    char gradle = dt/dx + dt/dy + dt/dz + dt/dt;
    return gradle_square = d^2*t/dx^2 + d^2*t/dy^2 + d^2*t/dz^2 + d^2*t/dt^2;
 }
+void NOT(){
 //momentum
 const m1 = 1,m2 = 2,m3 = 3,m4 = 4,m6 = 6,m7 = 7,m8 = 8,m9 = 9;
 const v1 = 1.5,v2 = 2.5,v3 = 3.5, v4 = 4.5,v6 = 6.5,v7 = 7.5,v8 = 8.5,v9 = 9.5;
