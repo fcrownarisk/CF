@@ -20,7 +20,7 @@ typedef struct {
     while(T1 = c2-c3)
     do(X1*Z1)
     while(T1 = c1-c3)
-;} X1Y1Z1t1;
+;} X1Y1Z1T1;
 
 typedef struct {
    char X2,Y2,Z2;int T2;
@@ -33,7 +33,7 @@ typedef struct {
     while(T2 = c2+c3)
     do(X2*Z2)
     while(T2 = c1+c3)
-;} X2Y2Z2t2;
+;} X2Y2Z2T2;
 
 typedef struct {
    char X3,Y3,Z3;int T3;
@@ -46,7 +46,7 @@ typedef struct {
     while(T3 = c6-c4)
     do(X3*Z3)
     while(T3 = c6-c5)
-;} X3Y3Z3t3;
+;} X3Y3Z3T3;
 
 typedef struct {
    char X4,Y4,Z4;int T4;
@@ -59,7 +59,7 @@ typedef struct {
     while(T4 = c7-c6)
     do(X4*Z4)
     while(T4 = c8-c6)
-;} X4Y4Z4t4;
+;} X4Y4Z4T4;
 
 typedef struct {
    char X5,Y5,Z5;int T5;
@@ -72,20 +72,20 @@ typedef struct {
     while(T5 = c6+c5)
     do(X5*Z5)
     while(T5 = c6+c4)
-;} X5Y5Z5t5;
+;} X5Y5Z5T5;
 
 typedef struct  {
    char X6,Y6,Z6;int T6;
-    for(double X6=-2.7;2>X6>-3;++Y6&&Z6--)
-    for(double Y6=-2.8;4>Y6>-6;++X6&&Z6--)
-    for(double Z6=-2.9;8>Z6>-9;++X6&&Y6--)
+    for(double X6=-2.7;2>X6>-3;Y6++&&Z6--)
+    for(double Y6=-2.8;4>Y6>-6;X6++&&Z6--)
+    for(double Z6=-2.9;8>Z6>-9;X6++&&Y6--)
     do(X6*Y6)
     while(T6 = c7-c0)
     do(Y6*Z6)
     while(T6 = c8-c0)
     do(X6*Z6)
     while(T6 = c9-c0)
-;} X6Y6Z6t6;
+;} X6Y6Z6T6;
 
 void XYZT(){
     void X1Y1Z1t1(){
